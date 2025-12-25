@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Core Simulation Modules
+## 🚀 Simulation Modules
 
 The project features custom-built C programs to simulate real-world OS scenarios:
 
@@ -16,7 +16,7 @@ The project features custom-built C programs to simulate real-world OS scenarios
 
 ---
 
-## 📊 Technical Innovation: The Gantt Chart
+## 📊 GUI (Gantt chart)
 
 The centerpiece of this tool is the real-time Gantt Chart, which visualizes the Linux Scheduler's work using advanced logic:
 
