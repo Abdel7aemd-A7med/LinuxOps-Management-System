@@ -1,4 +1,4 @@
-# 🐧 LinuxOps: Advanced Process Management & Kernel Visualization
+# 🐧 LinuxOps Management System
 
 **LinuxOps** is a powerful system-level monitoring tool designed to visualize the internal mechanics of the Linux Kernel. By integrating a **Pyth** frontend with specialized **C-backend** simulators, the project provides a granular, real-time look into scheduling, resource contention, and process lifecycles.
 
@@ -22,6 +22,8 @@ The centerpiece of this tool is the real-time Gantt Chart, which visualizes the 
 
 ### **1. CPU Affinity Control**
 The tool utilizes `taskset` to bind workloads to **Core 0**. This forces the Linux Kernel to perform frequent **Context Switches**, allowing users to witness true resource competition in a multitasking environment.
+         <img width="1125" height="369" alt="image" src="https://github.com/user-attachments/assets/c232feea-6e8e-438c-85dd-8ee6308bf8e6" />
+
 
 ### **2. Delta-Time Analysis**
 Using a custom algorithm (`current_cputime - prev_cputime`), the chart dynamically distinguishes between:
