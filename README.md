@@ -42,6 +42,12 @@ Using a custom algorithm (`current_cputime - prev_cputime`), the chart dynamical
 
 ---
 
+## Documentation
+
+https://drive.google.com/file/d/1oX5KJoBlNGiABtZj5Lqh1Y7x_30c7pNs/view?usp=drive_link
+
+---
+
 ## 📂 Project Structure
 
 ```text
