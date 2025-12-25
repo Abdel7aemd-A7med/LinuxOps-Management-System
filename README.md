@@ -1,6 +1,6 @@
 # 🐧 LinuxOps: Advanced Process Management & Kernel Visualization
 
-**LinuxOps** is a powerful system-level monitoring tool designed to visualize the internal mechanics of the Linux Kernel. By integrating a **Python (Tkinter)** frontend with specialized **C-backend** simulators, the project provides a granular, real-time look into scheduling, resource contention, and process lifecycles.
+**LinuxOps** is a powerful system-level monitoring tool designed to visualize the internal mechanics of the Linux Kernel. By integrating a **Pyth** frontend with specialized **C-backend** simulators, the project provides a granular, real-time look into scheduling, resource contention, and process lifecycles.
 
 ---
 
