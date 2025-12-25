@@ -8,11 +8,11 @@
 
 The project features custom-built C programs to simulate real-world OS scenarios:
 
-* **🔴 CPU Hog**: Executes intensive computational loops to stress the CPU and test scheduler fairness.
-* **🔵 Memory Hog**: Allocates and manipulates RAM to monitor **Resident Set Size (RSS)** and memory management.
-* **🧟 Zombie Process**: Demonstrates PID retention in the process table when a parent fails to call `wait()`.
-* **👶 Orphan Process**: Visualizes child process adoption by **init/systemd (PID 1)** after parent termination.
-* **🧵 Multithreading**: Spawns multiple threads to explore **LWP (Lightweight Processes)** and shared resources.
+* **CPU Hog**: Executes intensive computational loops to stress the CPU and test scheduler fairness.
+* **Memory Hog**: Allocates and manipulates RAM to monitor **Resident Set Size (RSS)** and memory management.
+* **Zombie Process**: Demonstrates PID retention in the process table when a parent fails to call `wait()`.
+* **Orphan Process**: Visualizes child process adoption by **init/systemd (PID 1)** after parent termination.
+* **Multithreading**: Spawns multiple threads to explore **LWP (Lightweight Processes)** and shared resources.
 
 ---
 
