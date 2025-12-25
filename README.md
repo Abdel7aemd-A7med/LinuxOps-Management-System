@@ -46,13 +46,14 @@ Using a custom algorithm (`current_cputime - prev_cputime`), the chart dynamical
 
 ```text
 ├── src/
-│   ├── ProcessMonitorApp.py  # Main Python GUI (Tkinter)
+│   ├── new-gui.py  # Main Python GUI (Tkinter)
+|   ├── bash-script 
 │   └── backend/             # C source files for simulations
 │       ├── CPUHOG.c
 │       ├── MEMHOG.c
 │       ├── zombie.c
 │       ├── orphan.c
 │       └── Threads.c
+|       └── IDLE.c
 ├── process/                 # Compiled binary executables (Ignored by Git)
-├── scripts/                 # Bash scripts for setup and automation
-└── docs/                    # Technical reports and Flowcharts
+
